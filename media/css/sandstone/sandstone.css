@@ -477,24 +477,6 @@ input.focus {
     display: none; /* Hidden in non-mobile views */
 }
 
-/* Header Breadcrumbs */
-#masthead nav.breadcrumbs {
-  padding: 0 10px 10px;
-  float: none;
-}
-
-#masthead nav.breadcrumbs a,
-#masthead nav.breadcrumbs span {
-  padding: 0;
-  margin-right: .5em;
-  margin-left: .5em;
-}
-
-#masthead nav.breadcrumbs a:first-child,
-#masthead nav.breadcrumbs span:first-child {
-  margin-left: 0;
-}
-
 
 /* Menu Bars */
 .billboard {
