@@ -90,6 +90,11 @@ article, main, aside, canvas, figure, figure img, figcaption, hgroup, footer, he
 
 a img { border: 0; }
 
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 /* Basic Colors, Text, Links */
 html { background: #fff; }
@@ -977,4 +982,99 @@ nav.menu-bar span:first-child a {
         width: 420px;
     }
 
+}
+
+h4 {
+    font-size: 22px;
+}
+
+.sidebar nav {
+    font-size: 14px;
+}
+
+.game-demos {
+    list-style: none;
+    margin: -15px;
+}
+
+.game-item {
+    margin: 30px 0 0;
+    width: 50%;
+}
+
+.game-link {
+    display: block;
+    margin: 15px;
+}
+
+.game-link:active,
+.game-link:hover {
+    text-decoration: none;
+}
+
+.game-screenshot {
+    background-size: fill;
+    height: 150px;
+    transition: .3s opacity;
+    opacity: .8;
+    position: relative;
+}
+
+.game-screenshot:before {
+    background: rgba(0,0,0,.5);
+    content: "";
+    height: 100%;
+    position: absolute;
+    transition: .3s background;
+    width: 100%;
+}
+
+.game-link:hover .game-screenshot {
+    opacity: 1;
+}
+
+.game-link:hover .game-screenshot:before {
+    background: none;
+}
+
+h2.game-name {
+    color: rgba(255,255,255,.85);
+    font: 600 22px 'Open Sans', sans-serif;
+    letter-spacing: 0;
+    margin-bottom: 6px;
+    text-shadow: none;
+}
+
+.btn-game-play,
+.game-dev {
+    display: none;
+}
+
+.game-details {
+    background: rgb(90,95,137);
+    border-bottom: 1px solid rgba(0,0,0,.5);
+    color: rgba(255,255,255,.85);
+    padding: 15px;
+}
+
+.game-cat {
+    color: #979acd;
+    font-size: 11px;
+    line-height: 1.3;
+    text-shadow: 1px .5px 0 rgba(0,0,0,.5);
+}
+
+.dot {
+    color: rgba(241, 196, 15,1.0);
+    display: inline-block;
+    font-size: 8px;
+    font-weight: 300;
+    padding-right: 2px;
+    padding-top: 2px;
+    text-shadow: none;
+    vertical-align: top;
+}
+
+.game-description {
+    font-size: 12px;
 }
