@@ -1088,3 +1088,11 @@ h2.game-name {
 .game-description {
     font-size: 12px;
 }
+
+.hgroup-masthead h1 {
+    color: #c13832;
+}
+
+.hgroup-masthead h2 {
+    color: #6a7b86;
+}
