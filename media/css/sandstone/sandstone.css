@@ -484,8 +484,12 @@ input.focus {
     color: #484848;
 }
 
+#nav-main {
+    display: none;  /* Temporarily disable nav since it's not being used. */
+}
+
 #nav-main .toggle {
-    display: none; /* Hidden in non-mobile views */
+    display: none;  /* Hidden in non-mobile views. */
 }
 
 
