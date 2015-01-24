@@ -426,8 +426,14 @@ input.focus {
 
 .main-column {
     float: left;
-    width: 620px; /* 8 column span */
+    width: 320px; /* 4 column span */
     margin: 0 10px;
+}
+
+.secondary-column {
+    float: left;
+    width: 220px; /* 4 column span */
+    margin: 0 40px;
 }
 
 .sidebar {
@@ -999,7 +1005,6 @@ h4 {
 
 .game-item {
     margin: 30px 0 0;
-    width: 50%;
 }
 
 .game-link {
