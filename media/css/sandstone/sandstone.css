@@ -1022,11 +1022,12 @@ h4 {
 }
 
 .game-screenshot {
-    background-size: fill;
+    background-position: -50px 0;
+    background-size: 400px auto;
     height: 150px;
-    transition: .3s opacity;
     opacity: .8;
     position: relative;
+    transition: .3s opacity;
 }
 
 .game-screenshot:before {
