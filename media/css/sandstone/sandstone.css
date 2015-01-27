@@ -639,6 +639,15 @@ nav.menu-bar span:first-child a {
     margin: 0 10px;
 }
 
+#colophon h1.logo {
+    font-size: .875rem;
+    margin-bottom: 10px;
+}
+
+.footer-license-text {
+    color: #999;
+}
+
 #colophon .footer-logo {
     width: 300px;
 }
@@ -647,7 +656,7 @@ nav.menu-bar span:first-child a {
     width: 220px;
 }
 
-#colophon  .footer-nav {
+#colophon .footer-nav {
     width: 140px;
 }
 
