@@ -213,8 +213,7 @@ h1, h2, h3, h4, h5, h6, .huge, .large {
 
 h1,
 .huge h2,
-.large h2,
-.billboard h2 {
+.large h2 {
   font-size: 48px;
   letter-spacing: -2px;
 }
@@ -402,7 +401,6 @@ input.focus {
 #main-feature,
 #main-content,
 #colophon,
-.billboard,
 .container {
   display: block;
   margin: 0 auto;
@@ -416,7 +414,6 @@ input.focus {
 #main-feature:after,
 #main-content:after,
 #colophon:after,
-.billboard:after,
 .container:after {
   clear: both;
   content: "";
@@ -733,7 +730,6 @@ input.focus {
   #main-feature,
   #main-content,
   #colophon,
-  .billboard,
   .container,
   .main-column,
   .sidebar {
@@ -786,8 +782,7 @@ input.focus {
     letter-spacing: -1px;
   }
 
-  h2,
-  .billboard h2 {
+  h2 {
     font-size: 28px;
     letter-spacing: -.5px;
   }
