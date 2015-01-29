@@ -495,27 +495,6 @@ input.focus {
 }
 
 
-/* Menu Bars */
-.billboard {
-  background: #fff;
-  border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 0 1px #fff inset;
-  margin-bottom: 40px;
-  padding-bottom: 40px;
-  padding-top: 40px;
-}
-
-.billboard h1,
-.billboard h2,
-.billboard h3,
-.billboard h4,
-.billboard h5,
-.billboard h6,
-.billboard .huge,
-.billboard .large {
-  color: #484848;
-}
-
 .menu-bar {
   font-family: 'Open Sans Light', sans-serif;
   font-weight: normal;
